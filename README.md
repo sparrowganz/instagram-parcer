@@ -1,23 +1,23 @@
-# Instagram-parcer
+# Instagram-reader
 
-### Instagram Parcer for Golang.
+### Instagram Reader for Golang.
 
 Parcing Account and Media information from public instagram accounts
 
-####Instalation
+#### Instalation
 ##### Install:
 ```
-$ go get -u github.com/sparrowganz/instagram-parcer/instagram
+$ go get -u github.com/sparrowganz/instagram-reader/instagram
 ```
 
 ##### Import:
 ```go
-import instagram-reader
+import "github.com/sparrowganz/instagram-reader/instagram"
 ```
 
 #### Usages
 
-#####Get Intagram Account
+##### Get Intagram Account
 
 ```go
 //By Username
@@ -29,7 +29,7 @@ account , err := GetAccountByUsername("username")
 account , err := GetAccountByUrl("https://instagram.com/username/")
 ```
 
-#####Get Medias
+##### Get Medias
 _only main page from account_
 ```go
 //By Username
