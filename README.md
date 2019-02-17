@@ -1,6 +1,6 @@
 # Instagram-reader
 
-### Instagram Parcer for Golang.
+### Instagram Reader for Golang.
 
 Parcing Account and Media information from public instagram accounts
 
