@@ -1,4 +1,4 @@
-# Instagram-parcer
+# Instagram-reader
 
 ### Instagram Parcer for Golang.
 
@@ -7,12 +7,12 @@ Parcing Account and Media information from public instagram accounts
 #### Instalation
 ##### Install:
 ```
-$ go get -u github.com/sparrowganz/instagram-parcer/instagram
+$ go get -u github.com/sparrowganz/instagram-reader/instagram
 ```
 
 ##### Import:
 ```go
-import "github.com/sparrowganz/instagram-parcer/instagram"
+import "github.com/sparrowganz/instagram-reader/instagram"
 ```
 
 #### Usages
