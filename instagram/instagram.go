@@ -73,7 +73,7 @@ func GetMediaByShortCode(code string) (*Media, error) {
 	}*/
 
 	mediaRoot := new(mediaRoot)
-	err = mediaRoot.parceJSON(htmlBytes)
+	err = mediaRoot.readeJSON(htmlBytes)
 	if err != nil {
 		return &Media{}, err
 	}

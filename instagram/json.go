@@ -141,8 +141,8 @@ type mediaRoot struct {
 	} `json:"graphql"`
 }
 
-//Parcer JSON to media Struct.
-func (root *mediaRoot) parceJSON(scriptBytes []byte) error {
+//JSON to media Struct.
+func (root *mediaRoot) readeJSON(scriptBytes []byte) error {
 
 	err := json.Unmarshal(scriptBytes, &root)
 	if err != nil {

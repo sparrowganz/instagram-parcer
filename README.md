@@ -12,7 +12,7 @@ $ go get -u github.com/sparrowganz/instagram-parcer/instagram
 
 ##### Import:
 ```go
-import "github.com/sparrowganz/instagram-parcer/instagram"
+import instagram-reader
 ```
 
 #### Usages
