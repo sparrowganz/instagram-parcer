@@ -10,7 +10,7 @@ const (
 	instagram = "instagram.com"
 
 	//Error
-	ErrIsNotInstagram = "Url is not instagram"
+	ErrIsNotInstagram = "Url domain is not instagram.com"
 	InvalidLink       = "Invalid Link"
 )
 
