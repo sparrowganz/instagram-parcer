@@ -2,7 +2,7 @@
 
 ### Instagram Reader for Golang.
 
-Parcing Account and Media information from public instagram accounts
+Read Account and Media information from public instagram accounts
 
 #### Instalation
 ##### Install:
